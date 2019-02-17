@@ -16,7 +16,8 @@ namespace SHA_256_Encryption
     {
         static void Main(string[] args)
         {
-
+            CheckPassowrd("2018");
+            Console.ReadLine();
         }
 
         private static void CheckPassowrd(string Year)
